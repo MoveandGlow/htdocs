@@ -1,0 +1,46 @@
+#tnp-modal{
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#tnp-modal-content{
+    background-color: #fff;
+    margin: 100px auto auto auto;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    position: relative;
+    padding: 0;
+}
+
+@media screen and (max-width: 525px) {
+    #tnp-modal-content{
+        margin: 10% auto;
+    }
+}
+
+#tnp-modal-close{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    font-size: 40px;
+    color: #999;
+    line-height: normal!important;
+}
+
+#tnp-modal-close:hover, #tnp-modal-close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor:  pointer;
+}
+
+#tnp-modal-body{
+    padding: 2rem;
+}

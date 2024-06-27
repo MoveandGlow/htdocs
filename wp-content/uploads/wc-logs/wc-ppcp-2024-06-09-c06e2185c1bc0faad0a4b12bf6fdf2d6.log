@@ -1,0 +1,36 @@
+2024-06-09T18:33:54+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v1/oauth2/token
+    [method] => POST
+    [http_status] => 401
+    [request] => Array
+(
+    [grant_type] => client_credentials
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+
+2024-06-09T19:37:53+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v1/oauth2/token
+    [method] => POST
+    [http_status] => 401
+    [request] => Array
+(
+    [grant_type] => client_credentials
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+

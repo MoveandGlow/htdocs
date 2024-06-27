@@ -1,0 +1,100 @@
+/* Contains some rules to simulate device layout on backend preview */
+
+#tnpb-content.tnp-view-mobile table[class="responsive"],
+#tnpb-content.tnp-view-mobile table.responsive
+{
+    width:100%!important;
+    float: none;
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tnpb-content.tnp-view-mobile td[class="responsive"]{
+    width:100%!important;
+    max-width: 100%!important;
+    display: block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none;
+}
+
+#tnpb-content.tnp-view-mobile img[class="responsive"],
+#tnpb-content.tnp-view-mobile img.responsive
+{
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile img[class="fluid"]{
+    width: 100%;
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile .pt-1 {
+    padding-top: 15px!important;
+}
+
+#tnpb-content.tnp-view-mobile .pb-1 {
+    padding-bottom: 15px!important;
+}
+
+#tnpb-content.tnp-view-mobile .tnp-grid-column {
+    max-width: 100%!important;
+}
+
+#tnpb-content.tnp-view-mobile td[data-responsive-image="true"] {
+    height: auto !important;
+}
+
+#tnpb-content.tnp-view-mobile .max-width-100 {
+    max-width: 100%!important;
+}
+
+/* Text block */
+#tnpb-content td .text a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+#tnpb-content td .text p {
+    margin: 0 0 15px 0 !important;
+}
+
+#tnpb-content td .text a:hover {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+/* TinyMCE of WP */
+#tnpb-content td .text .alignleft {
+    float: left;
+    margin: 7px 15px 7px 0px;
+}
+#tnpb-content td .text .alignright {
+    float: right;
+    margin: 7px 0px 7px 15px;
+}
+#tnpb-content td .text .aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tnpb-content td .text ul
+{
+    margin-left: 20px;
+    list-style-type: initial;
+    list-style-position: inside;
+}
+
+#tnpb-content td .text ol
+{
+    margin-left: 20px;
+    list-style-position: inside;
+}
+
+#tnpb-content td .text ul li,
+#tnpb-content td .text ol li
+{
+    margin-left: 0px !important;
+}

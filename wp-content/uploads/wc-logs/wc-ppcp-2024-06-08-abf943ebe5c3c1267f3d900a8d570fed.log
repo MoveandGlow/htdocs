@@ -1,0 +1,20 @@
+2024-06-08T17:59:23+00:00 ERROR API error: Array
+(
+    [url] => https://paypalconnect.paymentplugins.com/v1/status
+    [method] => POST
+    [http_status] => 404
+    [request] => Array
+(
+    [trackingId] => OL4DdFZbjgJt9zu1Pn15TABd6N7gZXyp
+    [environment] => sandbox
+)
+
+    [error] => Array
+        (
+            [name] => RESOURCE_NOT_FOUND_ERROR
+            [debug_id] => a6d7708b968e1
+        )
+
+)
+
+2024-06-08T18:01:06+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.

@@ -1,0 +1,38 @@
+2024-06-12T16:43:23+00:00 DEBUG POST https://api-m.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 5186ee0e50b9d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2024-06-12T16:43:26+00:00 DEBUG GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/WA79RATAJVKS2
+Response Debug ID: 9540d6b6b30eb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2024-06-12T16:43:28+00:00 DEBUG GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/WA79RATAJVKS2
+Response Debug ID: bb7e6faee478a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2024-06-12T16:43:34+00:00 DEBUG Loaded onbording URL from cache: sandbox-ppcp
+2024-06-12T16:43:34+00:00 DEBUG Loaded onbording URL from cache: sandbox-express_checkout
+2024-06-12T16:43:35+00:00 DEBUG GET https://api-m.paypal.com/v1/notifications/webhooks
+Response Debug ID: 7490b50cc4e24
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

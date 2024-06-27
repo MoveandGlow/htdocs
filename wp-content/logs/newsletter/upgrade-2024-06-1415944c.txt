@@ -1,0 +1,193 @@
+06-06-2024 22:58:50 - INFO  - 8.3.8 - 98,2 Mo/512 Mo - admin > Start upgrade from 0.0.0
+06-06-2024 22:58:51 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+06-06-2024 22:58:52 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+06-06-2024 22:58:53 - INFO  - 8.3.8 - 98,5 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+06-06-2024 22:58:53 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+06-06-2024 22:58:53 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+06-06-2024 22:58:54 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+06-06-2024 22:58:54 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+06-06-2024 22:58:54 - INFO  - 8.3.8 - 98,4 Mo/512 Mo - admin > Backing up options of 0.0.0
+06-06-2024 22:58:55 - INFO  - 8.3.8 - 98,5 Mo/512 Mo - admin > End
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,0 Mo/512 Mo - admin > Start upgrade from 8.3.8
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+07-06-2024 12:53:35 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-06-2024 12:53:36 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+07-06-2024 12:53:36 - INFO  - 8.3.8 - 78,2 Mo/512 Mo - admin > Backing up options of 8.3.8
+07-06-2024 12:53:36 - INFO  - 8.3.8 - 78,3 Mo/512 Mo - admin > End
+17-06-2024 21:27:39 - INFO  - 8.3.9 - 96,3 Mo/512 Mo - admin > Start upgrade from 8.3.8
+17-06-2024 21:27:39 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+17-06-2024 21:27:40 - INFO  - 8.3.9 - 99,2 Mo/512 Mo - admin > End
+24-06-2024 23:30:05 - INFO  - 8.4.0 - 100,3 Mo/512 Mo - admin > Start upgrade from 8.3.9
+24-06-2024 23:30:05 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+24-06-2024 23:30:06 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+24-06-2024 23:30:07 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+24-06-2024 23:30:07 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+24-06-2024 23:30:08 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+24-06-2024 23:30:08 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+24-06-2024 23:30:09 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+24-06-2024 23:30:09 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > Backing up options of 8.3.9
+24-06-2024 23:30:09 - INFO  - 8.4.0 - 100,9 Mo/512 Mo - admin > End
+26-06-2024 10:26:26 - INFO  - 8.4.1 - 101,1 Mo/512 Mo - admin > Start upgrade from 8.4.0
+26-06-2024 10:26:26 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+26-06-2024 10:26:26 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 100,9 Mo/512 Mo - admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > Backing up options of 8.4.0
+26-06-2024 10:26:27 - INFO  - 8.4.1 - 101,0 Mo/512 Mo - admin > End

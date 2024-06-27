@@ -1,0 +1,73 @@
+/*.tnp-steps {
+    max-width: 700px;
+    margin: 2rem 1rem 1rem 1rem;
+}*/
+
+#tnp-body .progress {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    /*display: inline-block;*/
+    border-radius: .5rem;
+    /*background-color: var(--tnp-orange);*/
+    color: var(--tnp-text);
+    padding: .7rem;
+    text-align: center;
+}
+
+
+#tnp-body .tnp-steps .progress.completed {
+    background-color: var(--tnp-green);
+}
+
+#tnp-body .tnp-step {
+    padding: 0;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    /*border: 1px solid #ddd;*/
+    display: flex;
+    align-items: center;
+}
+
+#tnp-body .tnp-step div:first-child {
+    border-radius: 50%;
+    border: 1px solid var(--tnp-gray-lighter);
+    background-color: var(--tnp-gray-lighter);
+    padding: .5rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+}
+
+#tnp-body .tnp-step.ok div:first-child {
+    background-color: var(--tnp-blue-light);
+}
+
+.tnp-step i {
+    font-size: 1rem;
+    color: var(--tnp-gray);
+}
+
+#tnp-body .tnp-step.ok i {
+    color: #fff;
+}
+
+#tnp-body .tnp-step h3 {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+#tnp-body .tnp-step p {
+    color: var(--tnp-gray-light);
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+#tnp-body .tnp-step a {
+    color: var(--tnp-blue)!important;
+}
+
+

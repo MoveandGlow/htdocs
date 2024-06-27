@@ -1,0 +1,342 @@
+
+.tnp-system-status table.widefat tbody tr>td:first-child {
+    width: 150px!important;
+}
+
+.tnp-system h3, .tnp-system h4 {
+    color: #fff;
+}
+
+.tnp-system #tnp-body table.widefat td {
+    vertical-align: top;
+}
+.tnp-system #tnp-body table.widefat td.status {
+    text-align: center;
+}
+
+.tnp-db-table {
+    width: auto;
+    background-color: #fff;
+}
+
+.tnp-db-table thead {
+    border-bottom: 1px solid #eee;
+}
+
+.tnp-db-table th {
+    font-weight: bold;
+}
+
+.tnp-db-table td, .tnp-db-table th {
+    padding: 3px;
+    font-family: monospace;
+    border: 0;
+}
+
+
+/*table.widefat {
+    border: 0;
+    box-shadow: none;
+}*/
+
+/*#tnp-status-table>tbody>tr:nth-child(2n+1) {
+    background-color: #ECF0F1;
+    border-radius: 2px;
+    margin: 5px;
+}*/
+
+#tnp-parameters-table tbody tr:nth-child(2n+1) {
+    background-color: #ECF0F1;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.tnp-ok {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #27AE60;
+    padding: 2px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+}
+
+.tnp-ko {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #E74C41;
+    padding: 2px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+}
+
+.tnp-maybe {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background-color: #F1C40F;
+    padding: 2px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+}
+
+
+/* Logs page */
+
+.tnp-log-files li {
+    padding-left: 15px;
+}
+
+.tnp-log-files li, .tnp-log-files li a {
+    /*color: #fff;*/
+}
+
+.tnp-log-files .tnp-log-size {
+    font-style: italic;
+}
+
+
+/* Delivery page */
+
+.tnp-flow {
+    margin-top: 30px;
+}
+.tnp-flow div {
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    text-align: center;
+    margin: 0 20px;
+    padding: 1em;
+
+}
+.tnp-flow div i {
+    font-size: 50px;
+}
+
+.tnp-flow div.tnp-arrow {
+    font-size: 40px;
+    color: #555;
+    padding: 0;
+    margin: 0;
+}
+
+.tnp-mail, .tnp-addon, .tnp-service, .tnp-user {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #444;
+    background-color: #fff;
+}
+
+
+
+
+/* This is loaded inline in the main/index.php file */
+
+.tnp-dashboard {
+    /*background-color: #f2f5f9;*/
+    /*color: #222222;*/
+}
+
+.tnp-dashboard .tnp-cards-container {
+    /*background-color: #28313c;*/
+}
+
+    /* Row Break Helper */
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.tnp-dashboard .tnp-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.tnp-dashboard .tnp-card {
+    flex: 1 0;
+    align-content: flex-start;
+    margin: 15px;
+    /*font-family: soleil, sans-serif;*/
+    border-radius: var(--tnp-card-radius);
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 15%);
+    padding: 15px;
+    color: var(--tnp-text);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.tnp-dashboard .tnp-card a, .tnp-dashboard .tnp-card a:active {
+    text-decoration: none;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-title {
+    /*flex-basis: 80%;*/
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    /*color: #fff;*/
+    /*background-color: var(--tnp-blue);*/
+}
+
+.tnp-dashboard .tnp-card .tnp-card-title span {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-upper-buttons {
+    /*flex-basis: 10%;*/
+    font-weight: normal;
+    margin: 0px 0px 10px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-description {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: normal;
+    margin: 0px 0px 20px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-content {
+    width: 100%;
+}
+
+#tnp-body .tnp-dashboard .tnp-card .widefat {
+    border: 0 !important;
+    margin-top: 0;
+    width: auto;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container {
+    margin-top: 40px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container a {
+    position: absolute;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF !important;
+    background-color: #2980b9;
+    border-radius: 4px;
+    text-decoration: none;
+    bottom: 15px;
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-button-container a:hover {
+    background-color: #2980b9e6;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletter-list {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subject {
+    flex-basis: 50%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-status {
+    flex-basis: 10%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-progress {
+    flex-basis: 30%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-action {
+    flex-basis: 5%;
+    margin-left: auto;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-email {
+    flex-basis: 40%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-name {
+    flex-basis: 30%;
+    margin-right: 10px;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-newsletters-subscriber-status {
+    flex-basis: 20%;
+    margin-right: 10px;
+}
+
+#tnp-body .tnp-dashboard .tnp-card .tnp-card-description {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: normal;
+    margin: 0px 0px 20px;
+}
+
+#tnp-body .tnp-dashboard .tnp-card .tnp-card-value {
+    font-size: 1.5rem;
+    line-height: normal;
+    font-weight: normal;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index {
+    background-color: #eee;
+    padding: 15px 20px 17px 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px;
+    width: fit-content;
+    float: left;
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index svg {
+    margin: 0px 10px;
+    vertical-align: text-bottom;
+    fill: var(--tnp-text);
+    stroke: var(--tnp-text);
+}
+
+.tnp-dashboard .tnp-card .tnp-card-documentation-index:hover {
+    animation: ease-in 4s;
+    background-color: #ddd;
+}
+
+.tnp-card .tnp-canvas {
+    width: 100%;
+}
+
+/* CSS Gradients */
+
+.tnp-mimosa {
+    background-color: #fd7278;
+}

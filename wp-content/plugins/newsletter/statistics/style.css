@@ -1,0 +1,265 @@
+.tnp-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -15px;
+}
+
+.tnp-card {
+    flex: 1 0;
+    align-content: flex-start;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    color: #FFF;
+}
+
+
+.tnp-card.tnp-card-col-2 {
+    flex: 0 0 calc(50% - 31px);
+}
+
+@media screen and (max-width: 700px) {
+    .tnp-card {
+        flex: 1 0 100%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .tnp-card {
+        flex: 1 0 40%;
+    }
+}
+
+.tnp-card .tnp-card-title {
+    font-size: 19px;
+    margin-bottom: 1rem;
+    color: #444;
+    line-height: normal;
+}
+
+.tnp-card .tnp-card-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #444;
+    line-height: normal;
+}
+
+
+.tnp-card .tnp-card-description {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    color: #7f8286;
+    margin-top: 20px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue',
+    Ubuntu, Arial, sans-serif;
+}
+
+.tnp-card .tnp-card-description .value {
+    color: #919498;
+    font-weight: 700;
+}
+
+.tnp-card .tnp-card-chart {
+    flex-basis: 100%;
+}
+
+.tnp-card .tnp-card-chart .mini-chart {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.tnp-card .tnp-card-chart.h-400 {
+    height: 400px;
+}
+
+.tnp-card-table table .w-25 {
+    width: 25%;
+}
+
+.tnp-card-table table .w-50 {
+    width: 50%;
+}
+
+.tnp-card-table table .w-75 {
+    width: 75%;
+}
+
+.tnp-card-table table .w-33 {
+    width: 33%;
+}
+
+.tnp-card-table table .w-20 {
+    width: 20%;
+}
+
+.tnp-card-table table .w-10 {
+    width: 10%;
+}
+
+.tnp-card-table table .w-80 {
+    width: 80%;
+}
+
+.tnp-card-table table tbody::before {
+    content: '';
+    display: table-row;
+    height: 15px;
+}
+
+.tnp-card-table table tbody tr {
+    line-height: 30px;
+}
+
+#tnp-body .tnp-card-table table tbody td,
+.tnp-card-table table tbody td {
+    color: #444;
+}
+
+/* Statistics General Infobox */
+
+.tnp-statistics-general-icon {
+    display: inline-block;
+    background-color: #2980B9;
+    padding: 20px 18px 14px 18px;
+}
+
+.tnp-statistics-general-box {
+    background-color: #2980B9;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#tnp-heading .tnp-statistics-general-box p {
+    color: #fff;
+    line-height: 25px;
+}
+
+.tnp-statistics-general-title {
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 0.05rem;
+    background-color: #2980B9;
+    color: #fff;
+    margin: 15px 0px;
+    padding: 9px;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.tnp-retarget .tnp-retarget-table {
+    background-color: #34495E;
+    border: none;
+}
+
+.tnp-retarget .tnp-retarget-table th {
+    color: #fff;
+    border: none;
+}
+
+/* Map widget used on different pages, even the user statistic page. */
+
+.tnp-map-chart {
+    width: 600px;
+    height: 400px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.tnp-map-chart .jqvmap-zoomin,
+.tnp-map-chart .jqvmap-zoomout {
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    font-size: 14px !important;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+    background-color: #2980B9;
+}
+
+.tnp-map-chart .jqvmap-zoomout {
+    top: 40px;
+}
+
+/* Full charts */
+.tnp-chart {
+    width: 90%;
+    margin: 15px auto 0 auto;
+    min-height: 400px;
+}
+
+.tnp-chart-mini {
+    margin: 30px auto 0 auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.tnp-card-icon > div {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tnp-card-icon-remove {
+    background-image: url('./images/remove.svg');
+}
+
+.tnp-card-icon-filter-remove {
+    /*background-image: url('./images/filter-remove.svg');*/
+}
+
+.tnp-card-icon-mouse {
+    background-image: url('./images/mouse-animated.svg');
+}
+
+.tnp-card-icon-business-contact {
+    /*background-image: url('./images/business-contact-85.svg');*/
+}
+
+.tnp-card-icon-preview {
+    /*background-image: url('./images/preview.svg');*/
+}
+
+.tnp-card-icon-rabbit {
+    /*background-image: url('./images/rabbit.svg');*/
+}
+
+/* Fix for third party plugins */
+.chartjs-render-monitor {
+    min-height: auto !important;
+}
+
+
+.tnp-widget .tnp-warning {
+    border: 1px solid #FFB900;
+    background-color: #FFd930;
+    margin: 20px;
+}
+
+/* Block with newsletter date in the title */
+#tnp-heading h2 span {
+    background-color: transparent;
+    border: 1px solid #999;
+    font-weight: normal;
+    color: #fff;
+    display: inline-block;
+    padding: .3rem;
+    font-size: .75em;
+    border-radius: 7px;
+    vertical-align: middle;
+    color: #444;
+    margin-left: 2em;
+}
+

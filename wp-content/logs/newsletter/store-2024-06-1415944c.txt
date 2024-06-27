@@ -1,0 +1,4 @@
+06-06-2024 23:13:20 - FATAL - 8.3.8 - 91,5 Mo/512 Mo - admin > Duplicate entry 'ouadouchmohamed862@gmail.com' for key 'email'
+06-06-2024 23:13:20 - FATAL - 8.3.8 - 91,5 Mo/512 Mo - admin > INSERT INTO `wp_newsletter` (`ip`, `email`, `name`, `sex`, `token`, `status`, `updated`) VALUES ('::1', 'ouadouchmohamed862@gmail.com', 'mohammed', 'n', '04c4ae8be4', 'C', '1717715600')
+06-06-2024 23:13:20 - FATAL - 8.3.8 - 91,6 Mo/512 Mo - admin > Column 'user_id' cannot be null
+06-06-2024 23:13:20 - FATAL - 8.3.8 - 91,6 Mo/512 Mo - admin > INSERT INTO `wp_newsletter_user_logs` (`ip`, `user_id`, `source`, `created`, `data`) VALUES ('::1', NULL, 'subscribe', '1717715600', '{\"status\":null}')
